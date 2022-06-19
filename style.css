@@ -3,6 +3,8 @@
     text-align: center;
     padding-top: 80px;
     font-family: "Joan", serif;
+    display:block;
+    margin: 0 auto;
 }
 
 h1{
@@ -18,3 +20,33 @@ h3{
     color: rgb(57, 56, 56);
 }
 
+.contact, .about{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+.about-content{
+    max-width: 800px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Joan", serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-paragraphs{
+    display:flex;
+    background-color: rgb(216, 214, 214);
+}
+
+.email-link{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:rgb(31, 31, 31);
+}
+
+.email-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
