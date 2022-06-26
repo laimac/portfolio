@@ -13,44 +13,95 @@
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Laima Ciselonoka</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="about-content">
-      <a href="index.html" class="homepage-link">Back to homepage</a>
-      <h1>About me</h1>
-      <h3>Front-end developer from Latvia 🇱🇻</h3>
+      <h1 class="pt-5 display-1">About me</h1>
+      <h3 class="">Front-end developer from Latvia 🇱🇻</h3>
       <div class="about-paragraphs">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
           aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
           alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
           blanditiis harum.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-          blanditiis harum.
         </p>
       </div>
-      <div class="about-contact" id="contact">
+
+      <div class="row pt-2">
+        <div class="col-sm-4">
+          <img
+            class="img-fluid img-thumbnail shadow p-3 mb-5 bg-body rounded"
+            width="300px"
+            src="images/weather.png"
+            alt="SheCodes Logo"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            class="img-fluid img-thumbnail shadow p-3 mb-5 bg-body rounded"
+            width="300px"
+            src="images/water.png"
+            alt="SheCodes Logo"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            class="img-fluid img-thumbnail shadow p-3 mb-5 bg-body rounded"
+            width="200px"
+            src="images/yoga.png"
+            alt="SheCodes Logo"
+          />
+        </div>
+      </div>
+
+      <div class="about-contact pt-1" id="contact">
         <h2>📲 Contact me</h2>
         <a class="email-link" href="mailto:laima.ciselonoka@gmail.com"
           >laima.ciselonoka@gmail.com</a
         >
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

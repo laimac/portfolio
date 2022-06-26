@@ -1,7 +1,7 @@
 root:{
 --primary-font-family: "Joan", serif;
 --primary-color: rgb(31, 31, 31);
---secondary-color:rgb(57, 56, 56);
+--secondary-color:red;
 }
 
 .container{
@@ -49,9 +49,7 @@ h3{
 .about-paragraphs p {
     margin: 20px;
     padding:20px;
-    background-color: rgb(222, 237, 241);
-width: 50%;
-border-radius: 4px;
+    font-size: 18px;
 }
 
 .email-link{
@@ -68,11 +66,6 @@ border-radius: 4px;
 
 .email-link:visited {
     color: blue;
-}
-
-.navigation{
-    display:flex;
-    justify-content: center;
 }
 
 .contact, .about{
