@@ -4,9 +4,10 @@
 --secondary-color:rgb(64, 63, 63);
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
 h1{
-    text-align: center;
+    font-size: 30px;
+    color:red;
 }
 }
 
