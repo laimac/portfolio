@@ -1,7 +1,13 @@
-root:{
+:root{
 --primary-font-family: "Joan", serif;
---primary-color: blue;
---secondary-color:red;
+--primary-color: rgb(22, 22, 22);
+--secondary-color:rgb(64, 63, 63);
+}
+
+@media(max-width:600px){
+h1{
+    text-align: center;
+}
 }
 
 .container{
