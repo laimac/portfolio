@@ -4,13 +4,6 @@
 --secondary-color:rgb(64, 63, 63);
 }
 
-@media(max-width:500px){
-h1{
-    font-size: 30px;
-    color:red;
-}
-}
-
 .container{
     max-width: 800px;
     text-align: center;
@@ -68,4 +61,11 @@ h3{
 
 .email-link:visited {
     color: blue;
+}
+
+@media(max-width:500px) {
+    h1 {
+        font-size: 30px;
+        color: red;
+    }
 }
