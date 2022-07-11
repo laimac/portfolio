@@ -66,6 +66,8 @@ h3{
 @media(max-width:500px) {
     h1 {
         font-size: 30px;
-        color: red;
+    }
+    h3, h2{
+        font-size: 22px;
     }
 }
